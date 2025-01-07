@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# SQLite database
+db/*.sqlite
+db/*.sqlite-journal
+
+# Multer uploads
+uploads/
+
+# Environment variables
+.env
+
+# Docker
+docker-compose.override.yml
+.docker
+docker*.log
+
+# Logs
+logs
+*.log
